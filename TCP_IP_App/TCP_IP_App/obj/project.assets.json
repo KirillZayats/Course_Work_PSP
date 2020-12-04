@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "MatrixLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MatrixLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MatrixLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MatrixLibrary/1.0.0": {
+      "type": "project",
+      "path": "../MatrixTransformations/MatrixLibrary.csproj",
+      "msbuildProject": "../MatrixTransformations/MatrixLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "MatrixLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Кирилл\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\TCP_IP_App\\TCP_IP_App.csproj",
+      "projectName": "TCP_IP_App",
+      "projectPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\TCP_IP_App\\TCP_IP_App.csproj",
+      "packagesPath": "C:\\Users\\Кирилл\\.nuget\\packages\\",
+      "outputPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\TCP_IP_App\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Кирилл\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\MatrixTransformations\\MatrixLibrary.csproj": {
+              "projectPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\MatrixTransformations\\MatrixLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

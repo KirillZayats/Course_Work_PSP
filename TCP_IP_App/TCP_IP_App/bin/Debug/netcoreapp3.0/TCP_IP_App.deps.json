@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "TCP_IP_App/1.0.0": {
+        "dependencies": {
+          "MatrixLibrary": "1.0.0"
+        },
+        "runtime": {
+          "TCP_IP_App.dll": {}
+        }
+      },
+      "MatrixLibrary/1.0.0": {
+        "runtime": {
+          "MatrixLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TCP_IP_App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MatrixLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

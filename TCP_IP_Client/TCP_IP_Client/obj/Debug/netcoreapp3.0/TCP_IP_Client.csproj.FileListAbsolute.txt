@@ -1,0 +1,22 @@
+D:\PSP\Новая папка\TCP_IP_Client\TCP_IP_Client\bin\Debug\netcoreapp3.0\TCP_IP_Client.exe
+D:\PSP\Новая папка\TCP_IP_Client\TCP_IP_Client\bin\Debug\netcoreapp3.0\TCP_IP_Client.deps.json
+D:\PSP\Новая папка\TCP_IP_Client\TCP_IP_Client\bin\Debug\netcoreapp3.0\TCP_IP_Client.runtimeconfig.json
+D:\PSP\Новая папка\TCP_IP_Client\TCP_IP_Client\bin\Debug\netcoreapp3.0\TCP_IP_Client.runtimeconfig.dev.json
+D:\PSP\Новая папка\TCP_IP_Client\TCP_IP_Client\bin\Debug\netcoreapp3.0\TCP_IP_Client.dll
+D:\PSP\Новая папка\TCP_IP_Client\TCP_IP_Client\bin\Debug\netcoreapp3.0\TCP_IP_Client.pdb
+D:\PSP\Новая папка\TCP_IP_Client\TCP_IP_Client\obj\Debug\netcoreapp3.0\TCP_IP_Client.AssemblyInfoInputs.cache
+D:\PSP\Новая папка\TCP_IP_Client\TCP_IP_Client\obj\Debug\netcoreapp3.0\TCP_IP_Client.AssemblyInfo.cs
+D:\PSP\Новая папка\TCP_IP_Client\TCP_IP_Client\obj\Debug\netcoreapp3.0\TCP_IP_Client.dll
+D:\PSP\Новая папка\TCP_IP_Client\TCP_IP_Client\obj\Debug\netcoreapp3.0\TCP_IP_Client.pdb
+D:\PSP\Новая папка\TCP_IP_Client\TCP_IP_Client\obj\Debug\netcoreapp3.0\TCP_IP_Client.csprojAssemblyReference.cache
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\TCP_IP_Client\bin\Debug\netcoreapp3.0\TCP_IP_Client.exe
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\TCP_IP_Client\bin\Debug\netcoreapp3.0\TCP_IP_Client.deps.json
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\TCP_IP_Client\bin\Debug\netcoreapp3.0\TCP_IP_Client.runtimeconfig.json
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\TCP_IP_Client\bin\Debug\netcoreapp3.0\TCP_IP_Client.runtimeconfig.dev.json
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\TCP_IP_Client\bin\Debug\netcoreapp3.0\TCP_IP_Client.dll
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\TCP_IP_Client\bin\Debug\netcoreapp3.0\TCP_IP_Client.pdb
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\TCP_IP_Client\obj\Debug\netcoreapp3.0\TCP_IP_Client.AssemblyInfoInputs.cache
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\TCP_IP_Client\obj\Debug\netcoreapp3.0\TCP_IP_Client.AssemblyInfo.cs
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\TCP_IP_Client\obj\Debug\netcoreapp3.0\TCP_IP_Client.dll
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\TCP_IP_Client\obj\Debug\netcoreapp3.0\TCP_IP_Client.pdb
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\TCP_IP_Client\obj\Debug\netcoreapp3.0\TCP_IP_Client.csprojAssemblyReference.cache
