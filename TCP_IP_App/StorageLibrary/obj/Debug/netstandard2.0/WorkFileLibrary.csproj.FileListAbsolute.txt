@@ -1,0 +1,15 @@
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_App\StorageLibrary\bin\Debug\netstandard2.0\WorkFileLibrary.deps.json
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_App\StorageLibrary\bin\Debug\netstandard2.0\WorkFileLibrary.dll
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_App\StorageLibrary\bin\Debug\netstandard2.0\WorkFileLibrary.pdb
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_App\StorageLibrary\obj\Debug\netstandard2.0\WorkFileLibrary.csprojAssemblyReference.cache
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_App\StorageLibrary\obj\Debug\netstandard2.0\WorkFileLibrary.AssemblyInfoInputs.cache
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_App\StorageLibrary\obj\Debug\netstandard2.0\WorkFileLibrary.AssemblyInfo.cs
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_App\StorageLibrary\obj\Debug\netstandard2.0\WorkFileLibrary.csproj.CopyComplete
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_App\StorageLibrary\obj\Debug\netstandard2.0\WorkFileLibrary.dll
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_App\StorageLibrary\obj\Debug\netstandard2.0\WorkFileLibrary.pdb
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_App\StorageLibrary\bin\Debug\netstandard2.0\MathLibrary.dll
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_App\StorageLibrary\bin\Debug\netstandard2.0\MathLibrary.pdb
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_App\StorageLibrary\bin\Debug\netstandard2.0\NetworkLibrary.dll
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_App\StorageLibrary\bin\Debug\netstandard2.0\TransformationLibrary.dll
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_App\StorageLibrary\bin\Debug\netstandard2.0\NetworkLibrary.pdb
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_App\StorageLibrary\bin\Debug\netstandard2.0\TransformationLibrary.pdb

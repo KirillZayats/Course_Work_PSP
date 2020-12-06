@@ -1,11 +1,66 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {}
+    ".NETCoreApp,Version=v3.0": {
+      "MathLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "NetworkLibrary": "1.0.0",
+          "TransformationLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MathLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MathLibrary.dll": {}
+        }
+      },
+      "NetworkLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/NetworkLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NetworkLibrary.dll": {}
+        }
+      },
+      "TransformationLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TransformationLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TransformationLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MathLibrary/1.0.0": {
+      "type": "project",
+      "path": "../MathLibrary/MathLibrary.csproj",
+      "msbuildProject": "../MathLibrary/MathLibrary.csproj"
+    },
+    "NetworkLibrary/1.0.0": {
+      "type": "project",
+      "path": "../NetworkLibrary/NetworkLibrary.csproj",
+      "msbuildProject": "../NetworkLibrary/NetworkLibrary.csproj"
+    },
+    "TransformationLibrary/1.0.0": {
+      "type": "project",
+      "path": "../TransformationLibrary/TransformationLibrary.csproj",
+      "msbuildProject": "../TransformationLibrary/TransformationLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": []
+    ".NETCoreApp,Version=v3.0": [
+      "MathLibrary >= 1.0.0",
+      "NetworkLibrary >= 1.0.0",
+      "TransformationLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Кирилл\\.nuget\\packages\\": {},
@@ -14,9 +69,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_Client\\TCP_IP_Client\\TCP_IP_Client.csproj",
-      "projectName": "TCP_IP_Client",
-      "projectPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_Client\\TCP_IP_Client\\TCP_IP_Client.csproj",
+      "projectUniqueName": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_Client\\TCP_IP_Client\\ConsoleLibrary.csproj",
+      "projectName": "ConsoleLibrary",
+      "projectPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_Client\\TCP_IP_Client\\ConsoleLibrary.csproj",
       "packagesPath": "C:\\Users\\Кирилл\\.nuget\\packages\\",
       "outputPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_Client\\TCP_IP_Client\\obj\\",
       "projectStyle": "PackageReference",
@@ -36,7 +91,17 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_Client\\MathLibrary\\MathLibrary.csproj": {
+              "projectPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_Client\\MathLibrary\\MathLibrary.csproj"
+            },
+            "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_Client\\NetworkLibrary\\NetworkLibrary.csproj": {
+              "projectPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_Client\\NetworkLibrary\\NetworkLibrary.csproj"
+            },
+            "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_Client\\TransformationLibrary\\TransformationLibrary.csproj": {
+              "projectPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_Client\\TransformationLibrary\\TransformationLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

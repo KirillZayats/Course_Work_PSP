@@ -25,6 +25,26 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "NetworkLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/NetworkLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NetworkLibrary.dll": {}
+        }
+      },
+      "TransformationLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TransformationLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TransformationLibrary.dll": {}
+        }
       }
     }
   },
@@ -171,11 +191,23 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "NetworkLibrary/1.0.0": {
+      "type": "project",
+      "path": "../NetworkLibrary/NetworkLibrary.csproj",
+      "msbuildProject": "../NetworkLibrary/NetworkLibrary.csproj"
+    },
+    "TransformationLibrary/1.0.0": {
+      "type": "project",
+      "path": "../TransformationLibrary/TransformationLibrary.csproj",
+      "msbuildProject": "../TransformationLibrary/TransformationLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "NetworkLibrary >= 1.0.0",
+      "TransformationLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -185,9 +217,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\MatrixTransformations\\MatrixLibrary.csproj",
-      "projectName": "MatrixLibrary",
-      "projectPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\MatrixTransformations\\MatrixLibrary.csproj",
+      "projectUniqueName": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\MatrixTransformations\\MathLibrary.csproj",
+      "projectName": "MathLibrary",
+      "projectPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\MatrixTransformations\\MathLibrary.csproj",
       "packagesPath": "C:\\Users\\Кирилл\\.nuget\\packages\\",
       "outputPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\MatrixTransformations\\obj\\",
       "projectStyle": "PackageReference",
@@ -207,7 +239,14 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\NetworkLibrary\\NetworkLibrary.csproj": {
+              "projectPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\NetworkLibrary\\NetworkLibrary.csproj"
+            },
+            "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\TransformationLibrary\\TransformationLibrary.csproj": {
+              "projectPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\TransformationLibrary\\TransformationLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

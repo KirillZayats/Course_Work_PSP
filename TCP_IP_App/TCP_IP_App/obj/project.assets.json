@@ -2,28 +2,82 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.0": {
-      "MatrixLibrary/1.0.0": {
+      "MathLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "NetworkLibrary": "1.0.0",
+          "TransformationLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MathLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MathLibrary.dll": {}
+        }
+      },
+      "NetworkLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/MatrixLibrary.dll": {}
+          "bin/placeholder/NetworkLibrary.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MatrixLibrary.dll": {}
+          "bin/placeholder/NetworkLibrary.dll": {}
+        }
+      },
+      "TransformationLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TransformationLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TransformationLibrary.dll": {}
+        }
+      },
+      "WorkFileLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MathLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WorkFileLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WorkFileLibrary.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "MatrixLibrary/1.0.0": {
+    "MathLibrary/1.0.0": {
       "type": "project",
-      "path": "../MatrixTransformations/MatrixLibrary.csproj",
-      "msbuildProject": "../MatrixTransformations/MatrixLibrary.csproj"
+      "path": "../MatrixTransformations/MathLibrary.csproj",
+      "msbuildProject": "../MatrixTransformations/MathLibrary.csproj"
+    },
+    "NetworkLibrary/1.0.0": {
+      "type": "project",
+      "path": "../NetworkLibrary/NetworkLibrary.csproj",
+      "msbuildProject": "../NetworkLibrary/NetworkLibrary.csproj"
+    },
+    "TransformationLibrary/1.0.0": {
+      "type": "project",
+      "path": "../TransformationLibrary/TransformationLibrary.csproj",
+      "msbuildProject": "../TransformationLibrary/TransformationLibrary.csproj"
+    },
+    "WorkFileLibrary/1.0.0": {
+      "type": "project",
+      "path": "../StorageLibrary/WorkFileLibrary.csproj",
+      "msbuildProject": "../StorageLibrary/WorkFileLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "MatrixLibrary >= 1.0.0"
+      "MathLibrary >= 1.0.0",
+      "NetworkLibrary >= 1.0.0",
+      "WorkFileLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -56,8 +110,14 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\MatrixTransformations\\MatrixLibrary.csproj": {
-              "projectPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\MatrixTransformations\\MatrixLibrary.csproj"
+            "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\MatrixTransformations\\MathLibrary.csproj": {
+              "projectPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\MatrixTransformations\\MathLibrary.csproj"
+            },
+            "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\NetworkLibrary\\NetworkLibrary.csproj": {
+              "projectPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\NetworkLibrary\\NetworkLibrary.csproj"
+            },
+            "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\StorageLibrary\\WorkFileLibrary.csproj": {
+              "projectPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\StorageLibrary\\WorkFileLibrary.csproj"
             }
           }
         }

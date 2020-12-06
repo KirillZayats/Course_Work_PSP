@@ -5,7 +5,13 @@ VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCP_IP_App", "TCP_IP_App\TCP_IP_App.csproj", "{E4987678-7249-45DC-B4D5-000797F21BE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixLibrary", "MatrixTransformations\MatrixLibrary.csproj", "{9862557C-3AD1-4D26-9D99-3D2411D188EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathLibrary", "MatrixTransformations\MathLibrary.csproj", "{9862557C-3AD1-4D26-9D99-3D2411D188EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkFileLibrary", "StorageLibrary\WorkFileLibrary.csproj", "{A55692AF-7CB2-44B0-9A5D-82105D5E4A79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkLibrary", "NetworkLibrary\NetworkLibrary.csproj", "{C7ED8963-EB87-4A6E-88CE-E3FF714B4AB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransformationLibrary", "TransformationLibrary\TransformationLibrary.csproj", "{AD4FD8EE-F624-458C-B358-97B314B2AA52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{9862557C-3AD1-4D26-9D99-3D2411D188EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9862557C-3AD1-4D26-9D99-3D2411D188EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9862557C-3AD1-4D26-9D99-3D2411D188EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A55692AF-7CB2-44B0-9A5D-82105D5E4A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A55692AF-7CB2-44B0-9A5D-82105D5E4A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A55692AF-7CB2-44B0-9A5D-82105D5E4A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A55692AF-7CB2-44B0-9A5D-82105D5E4A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7ED8963-EB87-4A6E-88CE-E3FF714B4AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7ED8963-EB87-4A6E-88CE-E3FF714B4AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7ED8963-EB87-4A6E-88CE-E3FF714B4AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7ED8963-EB87-4A6E-88CE-E3FF714B4AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD4FD8EE-F624-458C-B358-97B314B2AA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4FD8EE-F624-458C-B358-97B314B2AA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4FD8EE-F624-458C-B358-97B314B2AA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4FD8EE-F624-458C-B358-97B314B2AA52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

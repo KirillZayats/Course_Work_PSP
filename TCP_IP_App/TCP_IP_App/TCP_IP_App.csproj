@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MatrixTransformations\MatrixLibrary.csproj" />
+    <ProjectReference Include="..\MatrixTransformations\MathLibrary.csproj" />
+    <ProjectReference Include="..\NetworkLibrary\NetworkLibrary.csproj" />
+    <ProjectReference Include="..\StorageLibrary\WorkFileLibrary.csproj" />
   </ItemGroup>
 
 </Project>

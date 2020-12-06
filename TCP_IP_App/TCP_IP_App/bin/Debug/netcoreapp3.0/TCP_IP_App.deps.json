@@ -8,15 +8,39 @@
     ".NETCoreApp,Version=v3.0": {
       "TCP_IP_App/1.0.0": {
         "dependencies": {
-          "MatrixLibrary": "1.0.0"
+          "MathLibrary": "1.0.0",
+          "NetworkLibrary": "1.0.0",
+          "WorkFileLibrary": "1.0.0"
         },
         "runtime": {
           "TCP_IP_App.dll": {}
         }
       },
-      "MatrixLibrary/1.0.0": {
+      "MathLibrary/1.0.0": {
+        "dependencies": {
+          "NetworkLibrary": "1.0.0",
+          "TransformationLibrary": "1.0.0"
+        },
         "runtime": {
-          "MatrixLibrary.dll": {}
+          "MathLibrary.dll": {}
+        }
+      },
+      "NetworkLibrary/1.0.0": {
+        "runtime": {
+          "NetworkLibrary.dll": {}
+        }
+      },
+      "TransformationLibrary/1.0.0": {
+        "runtime": {
+          "TransformationLibrary.dll": {}
+        }
+      },
+      "WorkFileLibrary/1.0.0": {
+        "dependencies": {
+          "MathLibrary": "1.0.0"
+        },
+        "runtime": {
+          "WorkFileLibrary.dll": {}
         }
       }
     }
@@ -27,7 +51,22 @@
       "serviceable": false,
       "sha512": ""
     },
-    "MatrixLibrary/1.0.0": {
+    "MathLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetworkLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TransformationLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WorkFileLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

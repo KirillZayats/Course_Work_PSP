@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MatrixLibrary
+namespace MathLibrary
 {
     public class Matrix
     {
@@ -16,9 +16,16 @@ namespace MatrixLibrary
         /// <param name="coll"></param>
         public Matrix(double[,] values, int row, int coll)
         {
-            this.Values = values;
             this.Row = row;
             this.Coll = coll;
+            this.Values = new double[row, coll];
+            for (int i = 0; i < row; i++)
+            {
+                for (int j = 0; j < coll; j++)
+                {
+                    this.Values[i, j] = values[i, j];
+                }
+            }
         }
 
         /// <summary>
@@ -34,13 +41,12 @@ namespace MatrixLibrary
             this.Row = row;
             this.Coll = coll;
             Values = new double[Row, Coll];
-            GenerateMatrix();
         }
 
         /// <summary>
         /// Генерация матрицы
         /// </summary>
-        private void GenerateMatrix()
+        public void GenerateMatrix()
         {
             Random random = new Random();
             double colculateValue = 0;

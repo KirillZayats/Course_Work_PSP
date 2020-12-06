@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MatrixLibrary
+namespace MathLibrary
 {
     public static class CustomArray<T>
     {

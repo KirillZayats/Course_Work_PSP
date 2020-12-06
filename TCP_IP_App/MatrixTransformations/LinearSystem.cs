@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MatrixLibrary
+namespace MathLibrary
 {
     public class LinearSystem
     {
@@ -23,10 +23,10 @@ namespace MatrixLibrary
             if (aMatrix.Coll * aMatrix.Row != bVector.Size * bVector.Size)
                 throw new ArgumentException(@"Количество строк и столбцов в матрице A должно совпадать с количеством элементров в векторе B.");
 
-            this.initialAMatrix = aMatrix;  // запоминаем исходную матрицу
-            this.aMatrix = aMatrix; // с её копией будем производить вычисления
-            this.initialBVector = bVector;  // запоминаем исходный вектор
-            this.bVector = bVector;  // с его копией будем производить вычисления
+            this.initialAMatrix = new Matrix(aMatrix.Values, aMatrix.Row, aMatrix.Coll);  // запоминаем исходную матрицу
+            this.aMatrix = new Matrix(aMatrix.Values, aMatrix.Row, aMatrix.Coll); // с её копией будем производить вычисления
+            this.initialBVector = new Vector(bVector.Values, bVector.Size);  // запоминаем исходный вектор
+            this.bVector = new Vector(bVector.Values, bVector.Size);  // с его копией будем производить вычисления
             this.xVector = new Vector(bVector.Size);
             this.uVector = new Vector(bVector.Size);
             this.size = bVector.Size;
@@ -149,6 +149,8 @@ namespace MatrixLibrary
                 {
                     if(aMatrix.Coll - sizeColl == i)
                     {
+                        /*if (aMatrix.Values[j, i] == 0)
+                            Console.WriteLine(j + " " + i + " " + aMatrix.Values[j, i]);*/
                         vectorResult.Values[indexCountVector] = bVector.Values[indexCountVector] / aMatrix.Values[j, i];
                         indexCountVector--;
                     }

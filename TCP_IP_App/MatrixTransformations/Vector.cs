@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MatrixLibrary
+namespace MathLibrary
 {
     public class Vector
     {
         public double[] Values { get; set; }
         public int[] IndexList { get; set; }
+        private const double epx = 0.000000001;
 
         public int Size { get; set; }
 
@@ -21,14 +22,58 @@ namespace MatrixLibrary
         public Vector(double[] vector, int size)
         {
             this.Size = size;
-           // this.Values = vector;
             this.Values = new double[size];
             for (int i = 0; i < size; i++)
             {
                 this.Values[i] = vector[i];
             }
             InitIndex();
-            //GenerateVector();
+        }
+
+        public void CalculateNewVector(double koef, int row, int startRow)
+        {
+            Values[row] = koef * Values[startRow] + Values[row];
+
+            if (Values[row] < epx && Values[row] > -epx)
+                Values[row] = 0;
+
+        }
+
+        public void SortVector(int numberClient)
+        {
+            double[] newValues = new double[Size];
+
+            int[] sizeStep = new int[numberClient];
+            for (int i = 0; i < numberClient; i++)
+            {
+                sizeStep[i] = FindLengthStep(i, numberClient, Size);
+            }
+
+            int indexValues = 0;
+            for (int i = 0; i < sizeStep.Length; i++)
+            {
+                newValues[i] = Values[indexValues];
+                indexValues++;
+
+                int addValue = 0;
+                for (int j = 1; j < sizeStep[i]; j++)
+                {
+                    newValues[i + addValue + numberClient] = Values[indexValues];
+                    indexValues++;
+                    addValue += numberClient;
+                }
+            }
+            Values = newValues;
+        }
+
+        static int FindLengthStep(int start, int step, int size)
+        {
+            int length = 0;
+            for (int i = start; i < size; i += step)
+            {
+                length++;
+            }
+            return length;
         }
 
         /// <summary>
