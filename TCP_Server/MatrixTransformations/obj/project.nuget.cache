@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KVFljjxNJ+KJhwmeXEJIsxpWuxKPHFLrSq1g1uk9cxDHAfsdOvuFfFZMXx3aI2w3fFF6esrldjld0sk5WTVfiw==",
+  "success": true,
+  "projectFilePath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\MatrixTransformations\\MathLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

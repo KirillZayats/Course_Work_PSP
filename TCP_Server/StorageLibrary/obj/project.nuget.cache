@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "baxJVK+feN5wRbQVxJYWGErtphoiOd5+t4sPyRV+Qlu2XRypo4JkK42/BPl2QgGy5WROFWyEMoPIgFMhrQ4r/Q==",
+  "success": true,
+  "projectFilePath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\StorageLibrary\\WorkFileLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

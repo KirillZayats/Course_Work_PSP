@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "TCP_Server/1.0.0": {
+        "dependencies": {
+          "MathLibrary": "1.0.0",
+          "NetworkLibrary": "1.0.0",
+          "WorkFileLibrary": "1.0.0"
+        },
+        "runtime": {
+          "TCP_Server.dll": {}
+        }
+      },
+      "MathLibrary/1.0.0": {
+        "dependencies": {
+          "NetworkLibrary": "1.0.0",
+          "TransformationLibrary": "1.0.0"
+        },
+        "runtime": {
+          "MathLibrary.dll": {}
+        }
+      },
+      "NetworkLibrary/1.0.0": {
+        "runtime": {
+          "NetworkLibrary.dll": {}
+        }
+      },
+      "TransformationLibrary/1.0.0": {
+        "runtime": {
+          "TransformationLibrary.dll": {}
+        }
+      },
+      "WorkFileLibrary/1.0.0": {
+        "dependencies": {
+          "MathLibrary": "1.0.0"
+        },
+        "runtime": {
+          "WorkFileLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TCP_Server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MathLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetworkLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TransformationLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WorkFileLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

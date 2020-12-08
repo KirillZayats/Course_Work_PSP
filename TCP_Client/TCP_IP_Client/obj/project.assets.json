@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "MathLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "NetworkLibrary": "1.0.0",
+          "TransformationLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MathLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MathLibrary.dll": {}
+        }
+      },
+      "NetworkLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/NetworkLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NetworkLibrary.dll": {}
+        }
+      },
+      "TransformationLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TransformationLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TransformationLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MathLibrary/1.0.0": {
+      "type": "project",
+      "path": "../MathLibrary/MathLibrary.csproj",
+      "msbuildProject": "../MathLibrary/MathLibrary.csproj"
+    },
+    "NetworkLibrary/1.0.0": {
+      "type": "project",
+      "path": "../NetworkLibrary/NetworkLibrary.csproj",
+      "msbuildProject": "../NetworkLibrary/NetworkLibrary.csproj"
+    },
+    "TransformationLibrary/1.0.0": {
+      "type": "project",
+      "path": "../TransformationLibrary/TransformationLibrary.csproj",
+      "msbuildProject": "../TransformationLibrary/TransformationLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "MathLibrary >= 1.0.0",
+      "NetworkLibrary >= 1.0.0",
+      "TransformationLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Кирилл\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_Client\\TCP_IP_Client\\Console_Client.csproj",
+      "projectName": "Console_Client",
+      "projectPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_Client\\TCP_IP_Client\\Console_Client.csproj",
+      "packagesPath": "C:\\Users\\Кирилл\\.nuget\\packages\\",
+      "outputPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_Client\\TCP_IP_Client\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Кирилл\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_Client\\MathLibrary\\MathLibrary.csproj": {
+              "projectPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_Client\\MathLibrary\\MathLibrary.csproj"
+            },
+            "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_Client\\NetworkLibrary\\NetworkLibrary.csproj": {
+              "projectPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_Client\\NetworkLibrary\\NetworkLibrary.csproj"
+            },
+            "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_Client\\TransformationLibrary\\TransformationLibrary.csproj": {
+              "projectPath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_Client\\TransformationLibrary\\TransformationLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

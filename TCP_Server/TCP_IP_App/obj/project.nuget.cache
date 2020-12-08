@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1hq2m8WWQOqRY//VShlKVbhkS8IRgcOMFHfWa+ZTKEnDW6JF5hLGAwQSqPek0xlLYoK/qemC9zsbIW8RmbT/mg==",
+  "success": true,
+  "projectFilePath": "D:\\PSP\\Новая папка\\Test TCP(COURSE)\\TCP_IP_App\\TCP_IP_App\\TCP_IP_App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Кирилл\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\Кирилл\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

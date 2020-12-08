@@ -1,0 +1,15 @@
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\NetworkLibrary\bin\Debug\netstandard2.0\NetworkLibrary.deps.json
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\NetworkLibrary\bin\Debug\netstandard2.0\NetworkLibrary.dll
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\NetworkLibrary\bin\Debug\netstandard2.0\NetworkLibrary.pdb
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\NetworkLibrary\obj\Debug\netstandard2.0\NetworkLibrary.csprojAssemblyReference.cache
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\NetworkLibrary\obj\Debug\netstandard2.0\NetworkLibrary.AssemblyInfoInputs.cache
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\NetworkLibrary\obj\Debug\netstandard2.0\NetworkLibrary.AssemblyInfo.cs
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\NetworkLibrary\obj\Debug\netstandard2.0\NetworkLibrary.dll
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\NetworkLibrary\obj\Debug\netstandard2.0\NetworkLibrary.pdb
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_Client\NetworkLibrary\bin\Debug\netstandard2.0\NetworkLibrary.deps.json
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_Client\NetworkLibrary\bin\Debug\netstandard2.0\NetworkLibrary.dll
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_Client\NetworkLibrary\bin\Debug\netstandard2.0\NetworkLibrary.pdb
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_Client\NetworkLibrary\obj\Debug\netstandard2.0\NetworkLibrary.AssemblyInfoInputs.cache
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_Client\NetworkLibrary\obj\Debug\netstandard2.0\NetworkLibrary.AssemblyInfo.cs
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_Client\NetworkLibrary\obj\Debug\netstandard2.0\NetworkLibrary.dll
+D:\PSP\Новая папка\Test TCP(COURSE)\TCP_Client\NetworkLibrary\obj\Debug\netstandard2.0\NetworkLibrary.pdb

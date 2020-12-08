@@ -1,8 +1,0 @@
-D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\TransformationLibrary\bin\Debug\netstandard2.0\TransformationLibrary.deps.json
-D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\TransformationLibrary\bin\Debug\netstandard2.0\TransformationLibrary.dll
-D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\TransformationLibrary\bin\Debug\netstandard2.0\TransformationLibrary.pdb
-D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\TransformationLibrary\obj\Debug\netstandard2.0\TransformationLibrary.csprojAssemblyReference.cache
-D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\TransformationLibrary\obj\Debug\netstandard2.0\TransformationLibrary.AssemblyInfoInputs.cache
-D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\TransformationLibrary\obj\Debug\netstandard2.0\TransformationLibrary.AssemblyInfo.cs
-D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\TransformationLibrary\obj\Debug\netstandard2.0\TransformationLibrary.dll
-D:\PSP\Новая папка\Test TCP(COURSE)\TCP_IP_Client\TransformationLibrary\obj\Debug\netstandard2.0\TransformationLibrary.pdb
